@@ -39,3 +39,8 @@ body{
     justify-content: center;
 }
 
+.remix{
+    direction: rtl;
+     unicode-bidi: bidi-override;
+}
+

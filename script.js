@@ -1,3 +1,48 @@
+/*NEXT STEP PUT EVERYTHING INTO A FUNCITON...
+
+SO LIKE EVERY BUTTON IS A FUNCTION AND ALL, MAYBE ALSO ADD 
+BACK OPTION, ALSO FIX THE BUTTONS INSIDE A DIV SO THEY ALWAYS
+DISPLAY IN THE SIDE OF EACH OTHER     back2back2backto u */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Making the first screen work, by giving the display prperty none to the inicial message*/
 document.querySelector("body").addEventListener("click", function(){
@@ -12,10 +57,35 @@ document.querySelector("body").addEventListener("click", function(){
 /* Building the structure for the second album tracklist */
 
 
-let newTrackList = document.querySelector(".tracklist");
 document.querySelector("button").addEventListener("click", function(){
     document.querySelector("body").style.backgroundColor = "white";
-    document.querySelector(".tracklist").innerHTML="<ol><li>360</li><li>Club Classics</li><li>Sympathy is a Knife</li><li>I Might Say Something Stupid</li><li>Talk Talk</li><li>Von Dutch</li><li>Everything Is Romantic</li><li>Rewind</li><li>So I</li><li>Girl, So Confusing</li><li>Apple</li><li>B2B</li><li>Mean Girls</li><li>I Think About It All The Time</li><li>365</li><li>Hello Goodbye </li> <li>Guess</li> <li>Spring Breakers</li></ol><button class='remix'> brat completly different</button>"
+    document.querySelector(".tracklist").innerHTML="<ol><li>360</li><li>Club Classics</li><li>Sympathy is a Knife</li><li>I Might Say Something Stupid</li><li>Talk Talk</li><li>Von Dutch</li><li>Everything Is Romantic</li><li>Rewind</li><li>So I</li><li>Girl, So Confusing</li><li>Apple</li><li>B2B</li><li>Mean Girls</li><li>I Think About It All The Time</li><li>365</li><li>Hello Goodbye </li> <li>Guess</li> <li>Spring Breakers</li></ol><button class='remix'> brat completly different</button><button class='home-page'>brat home page</button>"
 document.querySelector(".tracklist")
+
+
+document.querySelector(".remix").addEventListener("click", function(){
+    /*Type the pseudo-page for the remix */
+    /*all above.display hidden*/
+    /*display a new supposed div for the remix album*/
+    document.querySelector("body").style.backgroundColor = "#8ACE00"
+    document.querySelector(".tracklist").innerHTML="waitttt here goes the remix tracklist <button class= 'three'> brat three more songs</button><button class='home-page'>brat home page</button>"
+    document.querySelector(".tracklist").style.display = "none"
+
+
+
 })
+
+
+/*copy and paste the function for the other button*/
+
+
+
+})
+
+document.querySelector(".remix").addEventListener("click", function(){
+    /*Type the pseudo-page for the remix */
+    /*all above.display hidden*/
+    /*display a new supposed div for the remix album*/
+    /*document.querySelector("*").style.display = "none"*/
+    document.querySelector("body").style.backgroundColor = "#8ACE00"})
 
